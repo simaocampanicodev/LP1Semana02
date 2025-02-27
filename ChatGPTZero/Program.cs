@@ -29,6 +29,15 @@ namespace ChatGPTZero
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
+                case "Do you like football?":
+                    response = "Yes, of course!";
+                    break;
+                case "Which portuguese team is the best?":
+                    response = "Sport Lisboa e Benfica";
+                    break;
+                case "Do you like apples?":
+                    response = "No.";
+                    break;
                 default:
                     response = "You got me, I'm not THAT smart!";
                     break;
