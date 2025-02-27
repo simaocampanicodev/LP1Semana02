@@ -26,6 +26,14 @@ namespace ChatGPTZero
                 {
                     response = "I'm good, thanks for asking!";
                 }
+                else if (question == "Do you like Benfica?")
+                {
+                    response = "Of course, biggest club in Portugal!";
+                }
+                else if (question == "What's the capital of Portugal?")
+                {
+                    response = "Lisbon.";
+                }
                 else
                 {
                     response = "Sorry, I can't recognise your question, try again.";
