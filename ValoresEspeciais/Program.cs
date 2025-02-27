@@ -29,6 +29,8 @@ namespace ValoresEspeciais
             uint umax = uint.MaxValue;
             uint umin = uint.MinValue;
             Console.WriteLine($"uint máximo: {umax}");
+            uint overflow_umax = unchecked(uint.MaxValue + 1);
+            Console.WriteLine($"uint máx overflow + 1: {overflow_umax}");
             Console.WriteLine($"uint mínimo: {umin}");
             long lmax = long.MaxValue;
             long lmin = long.MinValue;
