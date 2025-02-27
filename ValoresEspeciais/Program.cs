@@ -30,7 +30,7 @@ namespace ValoresEspeciais
             uint umin = uint.MinValue;
             Console.WriteLine($"uint máximo: {umax}");
             uint overflow_umax = unchecked(uint.MaxValue + 1);
-            Console.WriteLine($"uint máx overflow + 1: {overflow_umax}");
+            Console.WriteLine($"uint máx + 1 overflow: {overflow_umax}");
             Console.WriteLine($"uint mínimo: {umin}");
             long lmax = long.MaxValue;
             long lmin = long.MinValue;
@@ -46,7 +46,11 @@ namespace ValoresEspeciais
             Console.WriteLine($"char mínimo: {cmin}");
             float fmax = float.MaxValue;
             float fmin = float.MinValue;
+            float overflowFloat = fmax * 10.0f;
+            float overflowInfinity = fmax * fmax;
             Console.WriteLine($"float máximo: {fmax:F3}");
+            Console.WriteLine($"float máx * 10.0f overflow: {overflowFloat:F3}");
+            Console.WriteLine($"float máx * máx overflow: {overflowInfinity:F3}");
             Console.WriteLine($"float mínimo: {fmin:F3}");
             double dmax = double.MaxValue;
             double dmin = double.MinValue;
