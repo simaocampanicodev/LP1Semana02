@@ -54,6 +54,20 @@ namespace ValoresEspeciais
             decimal dmmin = decimal.MinValue;
             Console.WriteLine($"decimal máximo: {dmmax:F3}");
             Console.WriteLine($"decimal mínimo: {dmmin:F3}");
+
+            float fminfinite = float.NegativeInfinity;
+            float fmaxinfinite = float.PositiveInfinity;
+            float fnan = float.NaN;
+            Console.WriteLine($"float mínimo infinito: {fminfinite}");
+            Console.WriteLine($"float máximo infinito: {fmaxinfinite}");
+            Console.WriteLine($"float NaN: {fnan}");
+
+            double dminfinite = double.NegativeInfinity;
+            double dmaxinfinite = double.PositiveInfinity;
+            double dnan = double.NaN;
+            Console.WriteLine($"double mínimo infinito: {dminfinite}");
+            Console.WriteLine($"double máximo infinito: {dmaxinfinite}");
+            Console.WriteLine($"double NaN: {dnan}");
         }
     }
 }
