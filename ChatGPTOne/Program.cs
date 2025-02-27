@@ -34,6 +34,10 @@ namespace ChatGPTZero
                 {
                     response = "Lisbon.";
                 }
+                else if (question == "Do you like football?")
+                {
+                    response = "Yes, I love football!";
+                }
                 else
                 {
                     response = "Sorry, I can't recognise your question, try again.";
