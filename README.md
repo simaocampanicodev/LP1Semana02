@@ -3,7 +3,8 @@
 <br>
 <br>
 
->In this exercise I worked with C#, learned about using math, operators, special characters, if's and while's and started some simple ask-response ChatGPT.
+>In this exercise I worked with C#.
+>Learned about using math, operators, special characters, if's and while's and started some simple ask-response ChatGPT.
 
 <br>
 <br>
