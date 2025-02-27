@@ -4,7 +4,7 @@
 <br>
 
 >In this exercise I worked with C#.
->\nLearned about using math, operators, special characters, if's and while's and started some simple ask-response ChatGPT.
+>Learned about using math, operators, special characters, if's and while's and started some simple ask-response ChatGPT.
 
 <br>
 <br>
