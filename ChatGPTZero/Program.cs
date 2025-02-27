@@ -23,6 +23,9 @@ namespace ChatGPTZero
                 case "What's your name?":
                     response = "Gran'pa";
                     break;
+                case "Are you more intelligent than me?":
+                    response = "Obviously!";
+                    break;
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
