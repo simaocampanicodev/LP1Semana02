@@ -6,15 +6,9 @@ namespace ChatGPTZero
     {
         private static void Main(string[] args)
         {
-            // Variáveis auxiliares
             string question, response;
-
-            // Colocar questão ao utilizador
             Console.Write("Place your question? ");
             question = Console.ReadLine();
-
-            // Verificar se se trata de uma questão conhecida e determinar uma
-            // resposta adequada
             switch (question)
             {
                 case "How are you?":
@@ -42,8 +36,6 @@ namespace ChatGPTZero
                     response = "You got me, I'm not THAT smart!";
                     break;
             }
-
-            // Responder adequadamente
             Console.WriteLine(response);
         }
     }
